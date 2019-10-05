@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/java_pft.iml" filepath="$PROJECT_DIR$/.idea/java_pft.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java_pft-master.sandbox.main.iml" filepath="$PROJECT_DIR$/.idea/modules/java_pft-master.sandbox.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java_pft-master.sandbox.test.iml" filepath="$PROJECT_DIR$/.idea/modules/java_pft-master.sandbox.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sandbox.iml" filepath="$PROJECT_DIR$/.idea/modules/sandbox.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sandbox.main.iml" filepath="$PROJECT_DIR$/.idea/modules/sandbox.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sandbox.test.iml" filepath="$PROJECT_DIR$/.idea/modules/sandbox.test.iml" />
