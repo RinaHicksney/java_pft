@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8948917-de68-4588-9133-2df8a395ba21" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/ContactHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/GroupHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/GroupHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/NavigationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/NavigationHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/SessionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/SessionHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/addressbook-web-tests/.gradle/" />
     <ignored path="$PROJECT_DIR$/addressbook-web-tests/build/" />
@@ -1120,6 +1116,16 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="addressbook" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_pft" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_pft" type="462c0819:PsiDirectoryNode" />
+              <item name="addressbook-web-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="addressbook" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1164,7 +1170,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573649118815" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573732461716" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/sandbox/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/addressbook-web-tests" />
@@ -1227,7 +1233,7 @@
       <module name="addressbook-web-tests_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.addressbook.appmanager.*" />
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1243,7 +1249,7 @@
       <module name="addressbook-web-tests_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.addressbook.appmanager.*" />
+          <option name="PATTERN" value="ru.stqa.pft.addressbook.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1301,7 +1307,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24641834" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
