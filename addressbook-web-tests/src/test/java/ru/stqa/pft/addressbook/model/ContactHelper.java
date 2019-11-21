@@ -6,12 +6,12 @@ import ru.stqa.pft.addressbook.appmanager.HelperBase;
 import ru.stqa.pft.addressbook.tests.ContactData;
 
 public class ContactHelper extends HelperBase {
-        public ContactHelper(WebDriver wd) {
+    public ContactHelper(WebDriver wd) {
         super(wd);
     }
 
-    public void submitContactCreation() {
-      click(By.xpath("(//input[@name='submit'])[2]"));
+    public void initContactCreation() {
+        click(By.linkText("add new"));
     }
 
     public void fillContactForm(ContactData contactData) {
@@ -33,8 +33,16 @@ public class ContactHelper extends HelperBase {
       type(By.name("homepage"),contactData.getHomepage());
 
     }
+    public void submitContactCreation() {
+        click(By.xpath("(//input[@name='submit'])[2]"));
+    }
 
     public void returnToHomePage() {
        click(By.linkText("home page"));
     }
+
+    public void deleteSelectedContact() {
+        click(By.xpath("//input[@value='Delete']"));}
+
+
 }
