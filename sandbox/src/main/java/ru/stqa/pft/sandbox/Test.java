@@ -22,7 +22,7 @@ public class Test {
 */
         Point p1 = new Point(3, 6);
         Point p2 = new Point(5, 4);
-        System.out.println("Расстояние между двумя точками ="+ p2.distance(3,6));
+        System.out.println("Расстояние между двумя точками ="+ p1.distance(p2));
 
 	}
 
