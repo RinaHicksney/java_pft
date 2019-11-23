@@ -12,10 +12,7 @@ public class GroupCreationTests extends TestBase{
 
     // null в fillGroupForm - значения по умолчаниюю
     app.getNavigationHelper().goToGroupPage();
-    app.getGroupHelper().initGroupCreation();
-    app.getGroupHelper().fillGroupForm(new GroupData("test 2", null, null));
-app.getGroupHelper().submitGroupCreation();
-    app.getGroupHelper().returnToGroupPage();
+    app.getGroupHelper().createGroup(new GroupData("test 2", null, null));
     app.logout();
   }
 
