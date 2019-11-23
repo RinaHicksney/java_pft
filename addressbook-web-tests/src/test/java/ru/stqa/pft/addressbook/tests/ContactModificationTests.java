@@ -8,9 +8,20 @@ public class ContactModificationTests extends TestBase {
 
             public void testContactModification() {
         app.getNavigationHelper().goToHomePage();
+        if (! app.getContactHelper().isThereAContact()){
+            app.getContactHelper().createContact(new ContactData("First_Name", "Middle_Name",
+                    "Last_Name", "Nick_Name", "Title", "Company",
+                    "Address", "HOme", "MObile", "Work", "Fax",
+                    "test@mail.ru", "test2@mail.ru", "test3@mail.ru",
+                    "HOmepage", null), false);
+        }
         app.getContactHelper().selectContact();
         app.getContactHelper().initContactModification();
-        app.getContactHelper().fillContactForm(new ContactData("First_Name", "Middle_Name", "Last_Name", "Nick_Name", "Title", "Company", "Address", "HOme", "MObile", "Work", "Fax", "test@mail.ru", "test2@mail.ru", "test3@mail.ru", "HOmepage", null), false);
+        app.getContactHelper().fillContactForm(new ContactData("First_Name", "Middle_Name",
+                "Last_Name", "Nick_Name", "Title", "Company",
+                "Address", "HOme", "MObile", "Work", "Fax",
+                "test@mail.ru", "test2@mail.ru", "test3@mail.ru",
+                "HOmepage", null), false);
         app.getContactHelper().submitContactModification();
         app.getContactHelper().returnToHomePage();
     }
