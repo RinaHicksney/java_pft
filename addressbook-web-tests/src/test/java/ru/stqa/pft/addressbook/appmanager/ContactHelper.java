@@ -1,8 +1,10 @@
 package ru.stqa.pft.addressbook.appmanager;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
-import ru.stqa.pft.addressbook.appmanager.HelperBase;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 import ru.stqa.pft.addressbook.model.ContactData;
 
 public class ContactHelper extends HelperBase {
@@ -14,7 +16,7 @@ public class ContactHelper extends HelperBase {
         click(By.linkText("add new"));
     }
 
-    public void fillContactForm(ContactData contactData) {
+    public void fillContactForm(ContactData contactData, boolean creation) {
       type(By.name("firstname"),contactData.getFirstname());
       type(By.name("middlename"),contactData.getMiddle_name());
       type(By.name("lastname"),contactData.getLast_name());
@@ -32,7 +34,17 @@ public class ContactHelper extends HelperBase {
       type(By.name("email3"),contactData.getEmail3());
       type(By.name("homepage"),contactData.getHomepage());
 
+
+      if (creation) {
+          //выбор группы из выпадающего списка (проверкеа на наличае эл-та)
+          new Select(wd.findElement(By.name("new_group"))).selectByVisibleText(contactData.getGroup());
+      } else {
+          // проверка того, что элемента быть не должно
+          //если элемент появился, тест упадет
+          Assert.assertFalse(isElementPresent(By.name("new_group")));
+      }
     }
+
     public void submitContactCreation() {
         click(By.xpath("(//input[@name='submit'])[2]"));
     }
