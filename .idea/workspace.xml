@@ -54,26 +54,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="5" />
-          <entry key="java" value="106" />
+          <entry key="java" value="107" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="5" />
-          <entry key="JAVA" value="106" />
+          <entry key="JAVA" value="107" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
           <entry key="gradle" value="4" />
-          <entry key="java" value="4273" />
+          <entry key="java" value="5228" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="4" />
-          <entry key="JAVA" value="4273" />
+          <entry key="JAVA" value="5228" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
@@ -82,27 +82,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sandbox/src/main/java/ru/stqa/pft/sandbox/Primes.java">
+        <entry file="file://$PROJECT_DIR$/sandbox/src/main/java/ru/stqa/pft/sandbox/Collections.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sandbox/src/test/java/ru/stqa/pft/sandbox/PrimeTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="408">
+              <caret line="24" column="78" selection-start-line="24" selection-start-column="78" selection-end-line="24" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#178#179#0" expanded="true" />
-                <element signature="e#268#269#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-                <element signature="e#270#271#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -958,6 +943,7 @@
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/ContactDeletionTests.java" />
         <option value="$PROJECT_DIR$/sandbox/src/test/java/ru/stqa/pft/sandbox/PrimeTests.java" />
         <option value="$PROJECT_DIR$/sandbox/src/main/java/ru/stqa/pft/sandbox/Primes.java" />
+        <option value="$PROJECT_DIR$/sandbox/src/main/java/ru/stqa/pft/sandbox/Collections.java" />
       </list>
     </option>
   </component>
@@ -1060,7 +1046,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574517937441" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574519449483" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/sandbox/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/addressbook-web-tests" />
@@ -1506,7 +1492,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sandbox/src/test/java/ru/stqa/pft/sandbox/PrimeTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="153">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1522,8 +1508,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sandbox/src/main/java/ru/stqa/pft/sandbox/Primes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        <state relative-caret-position="509">
+          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandbox/src/main/java/ru/stqa/pft/sandbox/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="78" selection-start-line="24" selection-start-column="78" selection-end-line="24" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
