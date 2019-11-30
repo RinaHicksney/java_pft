@@ -2,7 +2,6 @@ package ru.stqa.pft.addressbook.tests;
 
 
 import org.testng.annotations.*;
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import ru.stqa.pft.addressbook.model.ContactData;
 import java.util.Comparator;
@@ -12,7 +11,7 @@ public class ContactCreationTests extends TestBase{
 
   @Test
   public void testContactCreation() throws Exception {
-    app.getNavigationHelper().goToHomePage();
+    app.goTo().goToHomePage();
     List<ContactData> before = app.getContactHelper().getContactList();
     ContactData contact = new ContactData("First_Name", "Middle_Name",
             "Last_Name", "Nick_Name", "Title", "Company",

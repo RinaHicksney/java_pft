@@ -53,11 +53,11 @@ public class ApplicationManager {
         wd.findElement(By.linkText("add new")).click();
     }
 
-    public GroupHelper getGroupHelper() {
+    public GroupHelper group() {
         return groupHelper;
     }
 
-    public NavigationHelper getNavigationHelper() {
+    public NavigationHelper goTo() {
         return navigationHelper;
     }
 
