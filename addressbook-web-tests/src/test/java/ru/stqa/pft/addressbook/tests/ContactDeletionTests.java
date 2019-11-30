@@ -3,6 +3,10 @@ package ru.stqa.pft.addressbook.tests;
 import org.testng.annotations.*;
 import org.openqa.selenium.*;
 import ru.stqa.pft.addressbook.model.ContactData;
+import ru.stqa.pft.addressbook.model.GroupData;
+import ru.stqa.pft.addressbook.tests.TestBase;
+import org.testng.Assert;
+import java.util.List;
 
 public class ContactDeletionTests extends TestBase{
   private WebDriver wd;
@@ -18,10 +22,15 @@ public class ContactDeletionTests extends TestBase{
                     "test@mail.ru", "test2@mail.ru", "test3@mail.ru",
                     "HOmepage", null), false);
         }
-        app.getContactHelper().selectContact();
+        List<ContactData> before = app.getContactHelper().getContactList();
+        app.getContactHelper().selectContact(before.size() - 1);
         app.getContactHelper().deleteSelectedContact();
         wd.switchTo().alert().accept();
-        app.logout();
+        List<ContactData> after = app.getContactHelper().getContactList();
+        Assert.assertEquals(after.size(), before.size() - 1);
+
+        before.remove(before.size() - 1);
+        Assert.assertEquals(before,after);
   }
 
 }
