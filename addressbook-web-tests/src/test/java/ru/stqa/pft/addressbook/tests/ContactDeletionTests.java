@@ -7,8 +7,7 @@ import org.testng.Assert;
 import java.util.List;
 
 public class ContactDeletionTests extends TestBase{
-  private WebDriver wd;
-  private boolean acceptNextAlert = true;
+
 
     @Test
   public void testContactDeletion() throws Exception {
@@ -23,7 +22,7 @@ public class ContactDeletionTests extends TestBase{
         List<ContactData> before = app.getContactHelper().getContactList();
         app.getContactHelper().selectContact(before.size() - 1);
         app.getContactHelper().deleteSelectedContact();
-        wd.switchTo().alert().accept();
+        app.wd.switchTo().alert().accept();
         List<ContactData> after = app.getContactHelper().getContactList();
         Assert.assertEquals(after.size(), before.size() - 1);
 
